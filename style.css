@@ -145,15 +145,15 @@ main .home h1{
 }
 
 /*PORTFOLIO*/
-main .portfolio{
+main .portfoli{
     padding: 30px 0;
     overflow: hidden;
 }
-main .portfolio .filter{
+main .portfoli .filter{
     padding: 20px 0;
     margin-bottom: 10px;
 }
-main .portfolio .filter span{
+main .portfoli .filter span{
     text-transform: uppercase;
     color: #7d7d7d;
     font-size: 12px;
@@ -161,21 +161,21 @@ main .portfolio .filter span{
     padding: 7px 12px;
     cursor: pointer;
 }
-main .portfolio .filter span:hover{
+main .portfoli .filter span:hover{
     color:#454545;
 }
-main .portfolio .filter span.active{
+main .portfoli .filter span.active{
     border: 1px solid #454545;
 }
-main .portfolio .items{
+main .portfoli .items{
     padding: 0 15px;
 }
-main .portfolio .items .global{
+main .portfoli .items .global{
     position: relative;
     text-align: center;
     margin-bottom: 30px;
 }
-main .portfolio .items .overlay{
+main .portfoli .items .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -189,21 +189,21 @@ main .portfolio .items .overlay{
     opacity: 0;
     transition: all .5s;
 }
-main .portfolio .global:hover .overlay{
+main .portfoli .global:hover .overlay{
    opacity: 1; 
 }
-main .portfolio .global h2{
+main .portfoli .global h2{
     font-size: 14px;
     font-weight: 700;
     width: 100%;
     text-transform: uppercase;
 }
-main .portfolio .global p{
+main .portfoli .global p{
     font-size: 12px;
     width: 100%;
     color:#2f2f2f;
 }
-main .portfolio .global h3{
+main .portfoli .global h3{
     font-size: 11px;
     width:100%;
     text-transform: uppercase;
@@ -577,7 +577,7 @@ footer p{
     main.home{
        background-position: center center; 
     }
-    main .portfolio .items{
+    main .portfoli .items{
         padding: 0;
     }
     main .home h2{

@@ -14,6 +14,7 @@ get_header();
             //comença el loop
 		while ( have_posts() ) :
 			the_post();
+            
             //the_content mostra el contingut de la pàgina (dins del backend)
 			the_content();
 
