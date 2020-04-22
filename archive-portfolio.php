@@ -12,10 +12,9 @@ get_header();
         <div class="container portfoli">
             <div class="filter">
                 <span class="all active">ALL WORKS</span>
-                <span class="web">Web design</span>
-                <span class="uiux">ui/ux design</span>
-                <span class="wordpress">Wordpress</span>
-                <span class="branding">Branding</span>
+                <span class="type_portfolio-web-design">Web design</span>
+                <span class="type_portfolio-web-development">Web Development </span>
+                <span class="type_portfolio-branding">Branding</span>
             </div>
             <div class="items row">
 		<?php if ( have_posts() ) : ?>
