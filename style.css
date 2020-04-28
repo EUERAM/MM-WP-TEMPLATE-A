@@ -415,6 +415,18 @@ main .blog .peu .category{
 main .blog .peu .category i{
     margin-right: 8px;
 }
+main .blog .post-categories{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: inline-block;
+}
+main .blog .post-categories li{
+    
+}
+main .blog .post-categories a{
+    
+}
 
 /*BLOG SINGLE*/
 main .blog-single{
@@ -476,28 +488,39 @@ main .sidebar .widget{
 main .sidebar .widget:last-child{
     border-bottom: 0;
 }
-main .sidebar .widget h4{
+main .sidebar .widget h2{
     font-weight: 700;
     font-size: 15px;
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-top: 15px;
+    position:relative;
+    padding-bottom:30px;
 }
-main .sidebar .widget .separator{
+main .sidebar .widget h2::after{
+    content:'';
     display: inline-block;
     width: 50px;
     height: 2px;
     background-color: #bdbdbd;
     margin-bottom: 20px;
+    position: absolute;
+    top:30px;
+    left:0;
 }
-main .sidebar .search .form-control{
+.screen-reader-text, .search-submit{display: none;}
+main .sidebar .widget_search .search-field{
     border-radius: 0;
     font-size: 13px;
+    border: 1px solid gray;
+    padding:5px;
+    width: 100%;
+    display: block;
 }
-main .sidebar .search .form{
+main .sidebar .widget_search .form{
     position: relative;
 }
-main .sidebar .search .form i{
+main .sidebar .widget_search .form i{
     position: absolute;
     right: 10px;
     top: 10px;
