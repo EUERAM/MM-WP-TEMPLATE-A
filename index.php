@@ -12,6 +12,7 @@ get_header();
         <div class="container">
             <div class="blog">
                 <div class="row">
+                    
 		<?php
 		if ( have_posts() ) :
 			/* Start the Loop */

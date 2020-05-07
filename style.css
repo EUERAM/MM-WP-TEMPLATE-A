@@ -277,26 +277,26 @@ main .gallery .next{
 }
 
 /*CONTACT*/
-main .contact{
+main .post-14{
     padding: 50px 0;
 }
-main .contact p{
+main .post-14 p{
     font-size: 13px;
     color: #4c4c4c;
 }
-main .contact .form, main .contact .info{
+main .post-14 .form, main .post-14 .info{
     margin-top: 30px;
 }
-main .contact .info{
+main .post-14 .info{
     padding-left: 15px;
 }
-main .contact .form-control{
+main .post-14 .form-control{
     border-radius: 0;
     margin-bottom: 30px;
     font-size: 13px;
     padding: 8px 20px;
 }
-main .contact .btn{
+main .post-14 .btn{
     border-radius: 0;
     border:2px solid black;
     padding: 8px 25px;
@@ -304,18 +304,18 @@ main .contact .btn{
     text-transform: uppercase;
     font-weight: 600;
 }
-main .contact .c-info{
+main .post-14 .c-info{
     padding-bottom: 5px;
     border-bottom: 1px solid #eaeaea;
     margin-bottom: 20px;
 }
-main .contact .c-info h4{
+main .post-14 .c-info h4{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
     margin-bottom: 15px;
 }
-main .contact .c-info p{
+main .post-14 .c-info p{
     font-size: 12px;
 }
 main .mapa{
@@ -627,7 +627,7 @@ footer p{
         font-size: 40px;
     }
     
-    main .contact .info{
+    main .post-14 .info{
         padding-left: 50px;
     }
 }
